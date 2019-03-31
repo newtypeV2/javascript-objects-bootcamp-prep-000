@@ -4,10 +4,8 @@ var playlist = {
 
 function updatePlaylist(ObjectA,ArtistA,TitleA){
   ObjectA[ArtistA]=TitleA
-  return ObjectA
 }
 
 function removeFromPlaylist(ObjectA,ArtistA){
   delete ObjectA[ArtistA]
-  return ObjectA
 }
